@@ -1,4 +1,10 @@
-# Tetris in 200 C lines
+# TetrisNetwork
+
+## Description of Project
+Tetris Network project is an implementation of a client-server architecture for
+an existing tetris project. Note: I did not write the tetris game itself, that 
+was najibghadri, however I did implement splitting the game into both a server and
+client that are able to communicate wiht eachother. 
 
 ## Files
 
