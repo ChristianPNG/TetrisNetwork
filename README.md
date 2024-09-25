@@ -1,17 +1,29 @@
 # Tetris in 200 C lines
 
-Used ncurses only to read, and time the loop. Tried to use as few libraries as possible.
+## Files
 
-You can make new shapes and change the table dimensions easily! ;)
+Tetris.c - The server for the tetris game. All the logic will be ran here.
 
-Najib
+Tetris_client.c - The client for the tetris game. Controls and gameplay will
+be ran here. 
 
 ## How to run
 
-1.  Have C installd on your PC (almost every PC ever has C installed)
-2.  then run make. On Mac and Linux run `make` in your term.
-3.  run `./a.out`
+1. running the command "make" in the folder will create 2 executables "client"
+and "server"
 
+2. Run the server first. "./server"
 
-https://user-images.githubusercontent.com/11639734/151535471-ae0695a1-00bf-4b7b-bc71-134b89eb8796.mov
+3. Run the client second "./client"
+
+4. The game should then start on the client side
+
+## port and IP for client
+
+The client has 2 "#define" towards the top currently set to 127.0.0.1 
+"localhost" and port 8080. These can be changed although work well as it is.
+
+## How to play
+
+Use W,A,S,D to move the blocks. Q to terminate the game. 
 
